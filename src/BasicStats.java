@@ -206,4 +206,11 @@ public class BasicStats {
         Arrays.sort(numbers);
         return numbers[0];
     }
+     public static double maximum(double... numbers) {
+        if (numbers.length == 0) {
+            throw new IllegalArgumentException("Input array is empty.");
+        }
+        Arrays.sort(numbers);
+        return numbers[numbers.length - 1];
+    }
 }
