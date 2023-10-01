@@ -199,4 +199,11 @@ public class BasicStats {
         }
         return input;
     }
+     public static double minimum(double... numbers) {
+        if (numbers.length == 0) {
+            throw new IllegalArgumentException("Input array is empty.");
+        }
+        Arrays.sort(numbers);
+        return numbers[0];
+    }
 }
