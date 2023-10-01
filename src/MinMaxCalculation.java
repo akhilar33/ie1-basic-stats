@@ -23,6 +23,8 @@ public class MinMaxCalculation implements View {
 
 	@Override
 	public void update(ArrayList<Double> numbers) {
+		Min = BasicStats.minimum(BasicStats.getArrayDouble(numbers));
+        Max = BasicStats.maximum(BasicStats.getArrayDouble(numbers));
 
         minmax = String.valueOf(Min) + " " + String.valueOf(Max);
         
