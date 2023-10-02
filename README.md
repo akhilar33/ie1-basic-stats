@@ -34,7 +34,9 @@ If your system uses an outdated version of JUnit, you may encounter the followin
 [junit] junit/framework/JUnit4TestAdapterCache
 [junit] java.lang.NoClassDefFoundError: junit/framework/JUnit4TestAdapterCache
 ```
-Run `ant -lib lib/ <target>` to explicitly use JUnit4, which is provided in the *lib* directory. For example, run `ant -lib lib/ test` to run all Basic Statistics unit tests.
+Run `ant -lib lib/ <target>` to explicitly use JUnit4, which is provided in the *lib* directory. For example, run `ant -lib lib/ test` to run all Basic Statistics unit tests. 
+
+#### editing readme.md file lol 
 
 #### Java JDK not installed or misconfigured
 If a Java JDK is not installed or properly configured on your system, you may encounter the following error: 
@@ -43,3 +45,6 @@ BUILD FAILED
 build.xml:17 Unable to find a javac compiler;
 ```
 Make sure that you have a JDK installed and that the JAVA_HOME environment variable is properly set.
+
+more edits comming up
+some more chnages to push
